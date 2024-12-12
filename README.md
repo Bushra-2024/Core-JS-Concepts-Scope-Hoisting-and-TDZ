@@ -17,10 +17,4 @@ Scope defines where variables are accessible in your code. JavaScript has three 
    - Helps prevent global namespace pollution in modular code.  
 
 
-### Understanding JavaScript Scope with Examples  
-
-Scope in JavaScript defines the visibility and accessibility of variables. The following illustrates the three main types of scope:  
-
-![JavaScript Scope Schema](https://soshace.com/wp-content/uploads/2023/04/scope-schema-879.png)  
-
----
+<img src="https://images.ctfassets.net/pzhspng2mvip/1d5LNFu1ftEWvcMipQd1GN/0e857b697ae5145af31467e30749586a/2-scope-chain.png">

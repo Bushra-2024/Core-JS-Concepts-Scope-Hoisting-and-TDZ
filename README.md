@@ -17,4 +17,29 @@ Scope defines where variables are accessible in your code. JavaScript has three 
    - Helps prevent global namespace pollution in modular code.  
 
 
-<img src="https://images.ctfassets.net/pzhspng2mvip/1d5LNFu1ftEWvcMipQd1GN/0e857b697ae5145af31467e30749586a/2-scope-chain.png">
+# Hoisting in JavaScript
+
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope during the compile phase before code execution. This means that variables and functions can be used before they are declared, but the behavior depends on how they are declared.
+
+## Variable Hoisting
+
+When a variable is declared using `var`, it is hoisted to the top of its scope, but only its declaration, not its assignment. This means that if you try to use the variable before it’s initialized, its value will be `undefined`.
+
+Example:
+
+```javascript
+console.log(x); // undefined
+var x = 5;
+console.log(x); // 5
+```
+## Function Hoisting
+
+
+Function declarations are hoisted completely, meaning the entire function (including its body) is moved to the top of its scope. This allows you to call the function before its actual declaration in the code.
+
+```
+ hello(); // "Hello, world!"
+function hello() {
+    console.log("Hello, world!");
+}
+```

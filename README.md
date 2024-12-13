@@ -2,7 +2,8 @@
 ### JavaScript Scope  
 Scope defines where variables are accessible in your code. JavaScript has three main types of scope:  
 
-<p style="color:white;">To have a better understanding of scope, first look at the picture, then read the information here. You'll have a better understanding.</p>
+## Before you start reading about types first look at the picture, then read the information here. You'll have a better understanding.
+
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*I5kTkljF6GIVc56lVccjAw.png">
 
 1. **Global Scope**  

@@ -8,13 +8,25 @@ Scope defines where variables are accessible in your code. JavaScript has three 
 
 1. **Global Scope**  
    - Variables declared outside any function or block.  
-   - Accessible from anywhere in the program.  
+   - Accessible from anywhere in the program.
+     Example :
+     ```
+     let name = "xyz"
+     function changeName() {
+     name = "abc"               
+     }
+     changeName();
+     console.log(name);             // abc
+     ```
+     In the above example, we assign the global “name” variable a new value in function changeName() and it will override the existing value of the variable.
 
 2. **Local Scope**  
    - Variables declared inside a specific function or block.  
    - Further divided into:  
-     - **Function Scope**: Variables declared with `var` inside a function are accessible only within that function.  
-     - **Block Scope**: Variables declared with `let` or `const` are limited to the block `{}` where they are defined.  
+     - **Function Scope**: Whenever you create a new function, a new scope is created. Each function has its own scope, therefore when you declare a `variable` in a function, you can 
+      access this variable only within that function and its nested(inner) functions. You cannot access this variable outside of the function.
+     - **Block Scope**: we can declare local scope in block statements like for loop, if statement etc. Variables declared with `let` or `const` are limited to the block `{}` where they 
+     are defined.  
 
 3. **Module Scope**  
    - Variables declared inside a module are only accessible within that module unless exported.  

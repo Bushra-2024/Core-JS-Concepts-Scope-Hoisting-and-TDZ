@@ -2,6 +2,9 @@
 ### JavaScript Scope  
 Scope defines where variables are accessible in your code. JavaScript has three main types of scope:  
 
+<p style="color:white;">To have a better understanding of scope, first look at the picture, then read the information here. You'll have a better understanding.</p>
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*I5kTkljF6GIVc56lVccjAw.png">
+
 1. **Global Scope**  
    - Variables declared outside any function or block.  
    - Accessible from anywhere in the program.  
@@ -15,9 +18,6 @@ Scope defines where variables are accessible in your code. JavaScript has three 
 3. **Module Scope**  
    - Variables declared inside a module are only accessible within that module unless exported.  
    - Helps prevent global namespace pollution in modular code.  
-
-<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*I5kTkljF6GIVc56lVccjAw.png">
-
 
 
 

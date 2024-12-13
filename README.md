@@ -16,7 +16,7 @@ Scope defines where variables are accessible in your code. JavaScript has three 
    - Variables declared inside a module are only accessible within that module unless exported.  
    - Helps prevent global namespace pollution in modular code.  
 
-![Scope Image](images/scope.jpg)
+![Scope Image]("Downloads\scope.jpg")
 
 
 
